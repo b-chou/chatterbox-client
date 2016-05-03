@@ -1,10 +1,20 @@
 body {
-    background: #eee;
+    /*background: #eee;*/
     text-align: center;
     padding: 0 25px;
     font-family: arial, sans-serif;
     width: 210px;
     height: 40px;
+    width:48px;
+    height:48px;    
+  
+    background: #e0ffc7; 
+}
+
+h1, button.tab, #chats, #tabs {
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
 }
 
 #main, #chats {
@@ -116,7 +126,7 @@ ul#tabs {
 ul#tabs li {
 /*    display: inline-block;*/
     width:200px;
-    background-color: #32c896;
+    background-color:  #ff9999;
     /*border-bottom: solid 5px #238b68;*/
     padding: 3px 3px;
     margin-bottom: 4px;
@@ -130,7 +140,7 @@ ul#tabs li.active {
     background-color: #238b68;
 }
 ul#tab {
-    list-style-type: none;
+    list-style-type: none;                                                                                                                                                                                                                                                                           
     margin: 0;
     padding: 0;
     height: 450px;
@@ -141,4 +151,9 @@ ul#tab li {
 }
 ul#tab li.active {
     display: block;
+}
+
+button.tab {
+    background: transparent;
+    border: none !important;
 }
