@@ -3,6 +3,8 @@ body {
     text-align: center;
     padding: 0 25px;
     font-family: arial, sans-serif;
+    width: 210px;
+    height: 40px;
 }
 
 #main, #chats {
@@ -10,9 +12,16 @@ body {
     margin: auto;
     text-align: left;
     background: white;
-    padding: 50px 60px;
+    padding: 8px 60px;
     border: solid #ddd;
     border-width: 0 1px 1px 1px;
+    margin-left: 225px;
+}
+#chats {
+    height: 425px;
+}
+#main {
+    /*height: 00px;*/
 }
 
 #main h1 {
@@ -34,6 +43,10 @@ body {
     border: 1px solid red;
     background: #FDEFF0;
     padding: 20px;
+}
+.newroom {
+    float: right;
+    margin-left:5px;
 }
 
 #main .success {
@@ -88,3 +101,44 @@ form input[type=text] {
     background-color: #0090da;
 }
 
+.msg {
+    background-color: lightgrey;
+}
+/*///////////////*/
+
+ul#tabs {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    float:left;
+    margin: 0px, 0px;
+}
+ul#tabs li {
+/*    display: inline-block;*/
+    width:200px;
+    background-color: #32c896;
+    /*border-bottom: solid 5px #238b68;*/
+    padding: 3px 3px;
+    margin-bottom: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+ul#tabs li:hover {
+    background-color: #238b68;
+}
+ul#tabs li.active {
+    background-color: #238b68;
+}
+ul#tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 450px;
+    width: 210px;
+}
+ul#tab li {
+    display: none;
+}
+ul#tab li.active {
+    display: block;
+}

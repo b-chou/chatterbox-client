@@ -14,13 +14,19 @@
     <script src="scripts/app.js"></script>
   </head>
   <body>
+    <h1>chatterbox</h1>
+    <ul id="tabs">
+    </ul>
+    
+    <ul id="tab">
+        <div id="chats"></div>
+    </ul>
     <div id="main">
-      <h1>chatterbox</h1>
-      Room: <select id="roomSelect"> </select>
       <button class="newroom" onclick ="newRoom();">Create Room</button>  <input type="text" id="createRoom" class="newroom"> 
-      <br><br>
       <input type="text" id="message"> <button onclick ="getMessage();">Submit</button>
     </div>
-    <div id="chats"></div>
+
+
+
   </body>
 </html>
