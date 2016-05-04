@@ -7,8 +7,9 @@ body {
     height: 40px;
     width:48px;
     height:48px;    
-  
-    background: #e0ffc7; 
+    background: linear-gradient(-90deg, violet, lightblue);
+    /*background: linear-gradient(right,  #00ffcc, #0099ff);*/
+    /*background: #e0ffc7; */
 }
 
 h1, button.tab, #chats, #tabs {
@@ -17,15 +18,23 @@ h1, button.tab, #chats, #tabs {
     -webkit-font-smoothing: antialiased !important;
 }
 
+#createRoom {
+    height: 35px;
+    width: 330px;
+}
+#message {
+    height: 35px;
+    width: 380px;
+}
+
 #main, #chats {
     width: 500px;
     margin: auto;
     text-align: left;
     background: white;
     padding: 8px 60px;
-    border: solid #ddd;
-    border-width: 0 1px 1px 1px;
     margin-left: 225px;
+    background: transparent;
 }
 #chats {
     height: 425px;

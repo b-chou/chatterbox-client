@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>chatterbox</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="../button.css">
 
     <!-- dependencies -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
@@ -22,8 +23,10 @@
         <div id="chats"></div>
     </ul>
     <div id="main">
-      <button class="newroom" onclick ="newRoom();">Create Room</button>  <input type="text" id="createRoom" class="newroom"> 
-      <input type="text" id="message"> <button onclick ="getMessage();">Submit</button>
+
+      <input type="text" id="message"> <button class="button blue medium" onclick ="getMessage();">Submit</button>
+      <br><br>
+      <input type="text" id="createRoom" class="newroom"> <button class="newroom button blue medium" onclick ="newRoom();">Create Room</button>  
     </div>
 
 
